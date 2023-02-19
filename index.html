@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paid Sick Days Calculation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="start_date"></p>
+    <!-- !FORM begin -->
+    <form method="get">
+      <h2>Paid Sick Days Calculation</h2>
+      <div>
+        <label for="hireDate">Hire Date</label>
+        <input type="date" id="hireDate" name="hireDate" required />
+        <input type="submit" id="formSubmit" value="Submit" />
+      </div>
+    </form>
+    <p id="sick-day-calc">
+      Enter the employee start to calculate paid sick days from hire date to
+      year end.
+    </p>
+    <!-- ! This is where the javascript is placed -->
+    <script src="app.js"></script>
+  </body>
+</html>
